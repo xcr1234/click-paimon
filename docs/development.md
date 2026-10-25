@@ -46,3 +46,5 @@
 ## 可选：连千星知识库查 API
 
 [`tools/miliastra-toolbox-mcp.mjs`](../tools/miliastra-toolbox-mcp.mjs) 是一个 MCP stdio 适配器，按 [dsh-plugin-miliastra-toolbox](https://github.com/1475505/dsh-plugin-miliastra-toolbox) 的六项工具契约调用远端知识库，用来查节点、客户端控件和 Lua API 的官方说明。默认指向 `https://ugc.070077.xyz`，可用环境变量 `MILIASTRA_KNOWLEDGE_BASE_URL` 覆盖；需要网络。它只服务开发期查询，不参与构建，也不影响游戏运行。
+
+把它和模拟器一起接进 AI 编码助手的完整步骤（含 `.codex/config.toml` 模板与排错）见 [项目级 Codex 接入指南](codex-setup.md)。

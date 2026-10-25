@@ -81,6 +81,15 @@ npm run check          # 公开仓库审计：本机路径/凭据泄漏、白名
 
 见 [导入与运行](docs/game-import.md)：把存档载入模拟器试玩，或导出 GIA 导入千星沙箱并在自己的关卡里建立脚本映射。
 
+## 这套东西是怎么做出来的
+
+关卡、Lua 代码、像素头像，是在「**千星沙箱模拟器 + 千星知识库 + AI 编码助手**」的组合下完成的：AI 直接读写控件树存档、试玩截图、查官方节点与 Lua 文档，人只做决策和真机验收。
+
+想复刻这套工作流：
+
+- 🎬 教程视频：[千星沙箱模拟器 | 2D 奇域 AI 工作流教程](https://www.bilibili.com/video/BV1goHj6REq4/)（UP 主：神奇嘟嘟可）。分 4 集：系列介绍 → 模拟器的介绍和安装 → 知识库的集成 → 2D 美术素材构建工具。配套[讲义](https://ppt.070077.xyz/beyond-ai/index.html)。
+- 📄 本仓库里的落地方案：[项目级 Codex 接入指南](docs/codex-setup.md)，含可直接抄的 `.codex/config.toml` 模板、[知识库 MCP 适配器](tools/miliastra-toolbox-mcp.mjs)、[Lua 模块化约定](docs/lua-modules.md) 和给 AI 看的 [AGENTS.md](AGENTS.md)。
+
 ## 许可与版权
 
 - **代码**（`src/`、`tools/`、`scripts/`、`examples/`）以 [MIT](LICENSE) 授权，随便用、随便改。
