@@ -1,0 +1,16 @@
+{
+  "format": "qxqy-autotest",
+  "version": 1,
+  "name": "hit-shows-brief-feedback",
+  "dt": 0.03333333333333333,
+  "events": [
+    { "kind": "click", "name": "StartButton", "t": 0 },
+    { "kind": "click", "name": "PaimonTarget", "t": 0.1 }
+  ],
+  "asserts": [
+    { "kind": "control", "name": "ScoreText", "field": "text", "equals": "1", "at": 0.1 },
+    { "kind": "control", "name": "HitFeedback", "field": "text", "equals": "+1", "at": 0.1 },
+    { "kind": "control", "name": "HitFeedback", "field": "visible", "equals": true, "at": 0.1 },
+    { "kind": "control", "name": "HitFeedback", "field": "visible", "equals": false, "at": 0.7 }
+  ]
+}

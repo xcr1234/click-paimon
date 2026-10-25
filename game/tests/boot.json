@@ -1,0 +1,12 @@
+{
+  "format": "qxqy-autotest",
+  "version": 1,
+  "name": "boot-title-before-timer",
+  "dt": 0.03333333333333333,
+  "events": [],
+  "asserts": [
+    { "kind": "log", "contains": "ready", "source": "client", "at": 0 },
+    { "kind": "control", "name": "ReadyTitle", "field": "text", "equals": "点击派蒙", "at": 0 },
+    { "kind": "control", "name": "StartButton", "field": "visible", "equals": true, "at": 0 }
+  ]
+}

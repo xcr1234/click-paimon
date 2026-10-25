@@ -1,0 +1,11 @@
+{
+  "format": "qxqy-autotest",
+  "version": 1,
+  "name": "ready-screen-does-not-count-down",
+  "dt": 0.5,
+  "events": [],
+  "asserts": [
+    { "kind": "control", "name": "ReadyTitle", "field": "visible", "equals": true, "at": 31 },
+    { "kind": "control", "name": "TimerText", "field": "text", "equals": "30", "at": 31 }
+  ]
+}

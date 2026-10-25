@@ -1,0 +1,15 @@
+{
+  "format": "qxqy-autotest",
+  "version": 1,
+  "name": "mobile-16-9-smoke",
+  "dt": 0.03333333333333333,
+  "events": [
+    { "kind": "click", "name": "StartButton", "t": 0 },
+    { "kind": "click", "name": "PaimonTarget", "t": 0.1 }
+  ],
+  "asserts": [
+    { "kind": "control", "name": "TimerText", "field": "text", "equals": "30", "at": 0.1 },
+    { "kind": "control", "name": "ScoreText", "field": "text", "equals": "1", "at": 0.1 },
+    { "kind": "control", "name": "PaimonTarget", "field": "visible", "equals": true, "at": 0.1 }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "format": "qxqy-autotest",
+  "version": 1,
+  "name": "numeric-display-through-result-and-confirmation",
+  "dt": 0.1,
+  "events": [
+    { "kind": "click", "name": "StartButton", "t": 0 },
+    { "kind": "click", "name": "PaimonTarget", "t": 0.1 },
+    { "kind": "click", "name": "PaimonTarget", "t": 0.2 },
+    { "kind": "click", "name": "PaimonTarget", "t": 0.3 },
+    { "kind": "click", "name": "PaimonTarget", "t": 0.4 },
+    { "kind": "click", "name": "PaimonTarget", "t": 0.5 },
+    { "kind": "click", "name": "PaimonTarget", "t": 0.6 },
+    { "kind": "click", "name": "PaimonTarget", "t": 0.7 },
+    { "kind": "click", "name": "PaimonTarget", "t": 0.8 },
+    { "kind": "click", "name": "PaimonTarget", "t": 0.9 },
+    { "kind": "click", "name": "PaimonTarget", "t": 1.0 },
+    { "kind": "click", "name": "PaimonTarget", "t": 30.1 },
+    { "kind": "click", "name": "RestartButton", "t": 30.2 }
+  ],
+  "asserts": [
+    { "kind": "control", "name": "TimerText", "field": "text", "equals": "30", "at": 0 },
+    { "kind": "control", "name": "TimerText", "field": "visible", "equals": true, "at": 0 },
+    { "kind": "control", "name": "ScoreText", "field": "text", "equals": "0", "at": 0 },
+    { "kind": "control", "name": "ScoreText", "field": "visible", "equals": true, "at": 0 },
+    { "kind": "control", "name": "TimerText", "field": "text", "equals": "29", "at": 1.1 },
+    { "kind": "control", "name": "ScoreText", "field": "text", "equals": "10", "at": 1.1 },
+    { "kind": "control", "name": "FinalScoreText", "field": "visible", "equals": false, "at": 1.1 },
+    { "kind": "control", "name": "FinalScoreText", "field": "text", "equals": "10", "at": 30.1 },
+    { "kind": "control", "name": "FinalScoreText", "field": "visible", "equals": true, "at": 30.1 },
+    { "kind": "control", "name": "ScoreText", "field": "visible", "equals": false, "at": 30.1 },
+    { "kind": "control", "name": "RestartLabel", "field": "text", "equals": "确认通关", "at": 30.1 },
+    { "kind": "control", "name": "TimerText", "field": "text", "equals": "0", "at": 30.2 },
+    { "kind": "control", "name": "ScoreText", "field": "text", "equals": "10", "at": 30.2 },
+    { "kind": "control", "name": "ScoreText", "field": "visible", "equals": false, "at": 30.2 },
+    { "kind": "control", "name": "FinalScoreText", "field": "visible", "equals": true, "at": 30.2 },
+    { "kind": "control", "name": "RestartLabel", "field": "text", "equals": "通关中…", "at": 30.2 }
+  ]
+}

@@ -1,0 +1,4199 @@
+{
+  "format": "qxqy-simulator-save",
+  "version": 4,
+  "meta": {
+    "name": "点击派蒙"
+  },
+  "activeAssetType": "server-control-template",
+  "serverLogic": {
+    "version": 1,
+    "rules": []
+  },
+  "controlGuidChanges": [],
+  "scriptSync": null,
+  "assets": {
+    "server": {
+      "layoutSchemaVersion": 2,
+      "version": 1,
+      "meta": {
+        "name": "点击派蒙",
+        "assetType": "server-control-template",
+        "sourceFormat": "authoring",
+        "sourceFile": ""
+      },
+      "canvasId": "pc-16-9",
+      "selectedId": "n1",
+      "root": {
+        "id": "sc1",
+        "kind": "server-container",
+        "name": "点击派蒙_客户端控件容器",
+        "active": true,
+        "visible": true,
+        "canControllerFocus": false,
+        "syncAllDevices": true,
+        "transformByPlatform": {
+          "KEYBOARD": {
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "anchorMin": {
+              "x": 0,
+              "y": 0
+            },
+            "anchorMax": {
+              "x": 1,
+              "y": 1
+            },
+            "offset": {
+              "x": 0,
+              "y": 0
+            },
+            "size": {
+              "x": 0,
+              "y": 0
+            },
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            }
+          },
+          "TOUCHSCREEN": {
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "anchorMin": {
+              "x": 0,
+              "y": 0
+            },
+            "anchorMax": {
+              "x": 1,
+              "y": 1
+            },
+            "offset": {
+              "x": 0,
+              "y": 0
+            },
+            "size": {
+              "x": 0,
+              "y": 0
+            },
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            }
+          },
+          "CONTROLLER_CONSOLE": {
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "anchorMin": {
+              "x": 0,
+              "y": 0
+            },
+            "anchorMax": {
+              "x": 1,
+              "y": 1
+            },
+            "offset": {
+              "x": 0,
+              "y": 0
+            },
+            "size": {
+              "x": 0,
+              "y": 0
+            },
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            }
+          },
+          "CONTROLLER_MOBILE": {
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "anchorMin": {
+              "x": 0,
+              "y": 0
+            },
+            "anchorMax": {
+              "x": 1,
+              "y": 1
+            },
+            "offset": {
+              "x": 0,
+              "y": 0
+            },
+            "size": {
+              "x": 0,
+              "y": 0
+            },
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            }
+          }
+        },
+        "guid": 1073900000,
+        "scriptMappingIds": [],
+        "children": [
+          {
+            "id": "n1",
+            "kind": "container",
+            "name": "GameRoot",
+            "active": true,
+            "visible": true,
+            "canControllerFocus": false,
+            "syncAllDevices": true,
+            "transformByPlatform": {
+              "KEYBOARD": {
+                "scale": {
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "anchorMin": {
+                  "x": 0,
+                  "y": 0
+                },
+                "anchorMax": {
+                  "x": 1,
+                  "y": 1
+                },
+                "offset": {
+                  "x": 0,
+                  "y": 0
+                },
+                "size": {
+                  "x": 0,
+                  "y": 0
+                },
+                "pivot": {
+                  "x": 0.5,
+                  "y": 0.5
+                }
+              },
+              "TOUCHSCREEN": {
+                "scale": {
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "anchorMin": {
+                  "x": 0,
+                  "y": 0
+                },
+                "anchorMax": {
+                  "x": 1,
+                  "y": 1
+                },
+                "offset": {
+                  "x": 0,
+                  "y": 0
+                },
+                "size": {
+                  "x": 0,
+                  "y": 0
+                },
+                "pivot": {
+                  "x": 0.5,
+                  "y": 0.5
+                }
+              },
+              "CONTROLLER_CONSOLE": {
+                "scale": {
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "anchorMin": {
+                  "x": 0,
+                  "y": 0
+                },
+                "anchorMax": {
+                  "x": 1,
+                  "y": 1
+                },
+                "offset": {
+                  "x": 0,
+                  "y": 0
+                },
+                "size": {
+                  "x": 0,
+                  "y": 0
+                },
+                "pivot": {
+                  "x": 0.5,
+                  "y": 0.5
+                }
+              },
+              "CONTROLLER_MOBILE": {
+                "scale": {
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "anchorMin": {
+                  "x": 0,
+                  "y": 0
+                },
+                "anchorMax": {
+                  "x": 1,
+                  "y": 1
+                },
+                "offset": {
+                  "x": 0,
+                  "y": 0
+                },
+                "size": {
+                  "x": 0,
+                  "y": 0
+                },
+                "pivot": {
+                  "x": 0.5,
+                  "y": 0.5
+                }
+              }
+            },
+            "isolateNavigation": false,
+            "disableKeyEventPassthrough": false,
+            "disableCursorEventPassthrough": false,
+            "showCursor": true,
+            "guid": 1073900001,
+            "scriptMappingIds": [
+              "game-main"
+            ],
+            "children": [
+              {
+                "id": "n12",
+                "kind": "textbox",
+                "name": "ReadyTitle",
+                "active": true,
+                "visible": true,
+                "canControllerFocus": false,
+                "syncAllDevices": true,
+                "transformByPlatform": {
+                  "KEYBOARD": {
+                    "scale": {
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    },
+                    "rotation": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "anchorMin": {
+                      "x": 0.5,
+                      "y": 0.5
+                    },
+                    "anchorMax": {
+                      "x": 0.5,
+                      "y": 0.5
+                    },
+                    "offset": {
+                      "x": 0,
+                      "y": 130
+                    },
+                    "size": {
+                      "x": 620,
+                      "y": 100
+                    },
+                    "pivot": {
+                      "x": 0.5,
+                      "y": 0.5
+                    }
+                  },
+                  "TOUCHSCREEN": {
+                    "scale": {
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    },
+                    "rotation": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "anchorMin": {
+                      "x": 0.5,
+                      "y": 0.5
+                    },
+                    "anchorMax": {
+                      "x": 0.5,
+                      "y": 0.5
+                    },
+                    "offset": {
+                      "x": 0,
+                      "y": 130
+                    },
+                    "size": {
+                      "x": 620,
+                      "y": 100
+                    },
+                    "pivot": {
+                      "x": 0.5,
+                      "y": 0.5
+                    }
+                  },
+                  "CONTROLLER_CONSOLE": {
+                    "scale": {
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    },
+                    "rotation": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "anchorMin": {
+                      "x": 0.5,
+                      "y": 0.5
+                    },
+                    "anchorMax": {
+                      "x": 0.5,
+                      "y": 0.5
+                    },
+                    "offset": {
+                      "x": 0,
+                      "y": 130
+                    },
+                    "size": {
+                      "x": 620,
+                      "y": 100
+                    },
+                    "pivot": {
+                      "x": 0.5,
+                      "y": 0.5
+                    }
+                  },
+                  "CONTROLLER_MOBILE": {
+                    "scale": {
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    },
+                    "rotation": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "anchorMin": {
+                      "x": 0.5,
+                      "y": 0.5
+                    },
+                    "anchorMax": {
+                      "x": 0.5,
+                      "y": 0.5
+                    },
+                    "offset": {
+                      "x": 0,
+                      "y": 130
+                    },
+                    "size": {
+                      "x": 620,
+                      "y": 100
+                    },
+                    "pivot": {
+                      "x": 0.5,
+                      "y": 0.5
+                    }
+                  }
+                },
+                "fontSize": 68,
+                "adaptiveFontSize": false,
+                "minimumFontSize": 12,
+                "fontColor": 4294959760,
+                "bgColor": 0,
+                "enableOutline": false,
+                "outlineColor": 858993459,
+                "horizontalAlignment": "Middle",
+                "verticalAlignment": "Middle",
+                "text": "点击派蒙",
+                "guid": 1073900002,
+                "scriptMappingIds": [],
+                "children": []
+              },
+              {
+                "id": "n13",
+                "kind": "textbox",
+                "name": "ReadyHelp",
+                "active": true,
+                "visible": true,
+                "canControllerFocus": false,
+                "syncAllDevices": true,
+                "transformByPlatform": {
+                  "KEYBOARD": {
+                    "scale": {
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    },
+                    "rotation": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "anchorMin": {
+                      "x": 0.5,
+                      "y": 0.5
+                    },
+                    "anchorMax": {
+                      "x": 0.5,
+                      "y": 0.5
+                    },
+                    "offset": {
+                      "x": 0,
+                      "y": 20
+                    },
+                    "size": {
+                      "x": 680,
+                      "y": 60
+                    },
+                    "pivot": {
+                      "x": 0.5,
+                      "y": 0.5
+                    }
+                  },
+                  "TOUCHSCREEN": {
+                    "scale": {
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    },
+                    "rotation": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "anchorMin": {
+                      "x": 0.5,
+                      "y": 0.5
+                    },
+                    "anchorMax": {
+                      "x": 0.5,
+                      "y": 0.5
+                    },
+                    "offset": {
+                      "x": 0,
+                      "y": 20
+                    },
+                    "size": {
+                      "x": 680,
+                      "y": 60
+                    },
+                    "pivot": {
+                      "x": 0.5,
+                      "y": 0.5
+                    }
+                  },
+                  "CONTROLLER_CONSOLE": {
+                    "scale": {
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    },
+                    "rotation": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "anchorMin": {
+                      "x": 0.5,
+                      "y": 0.5
+                    },
+                    "anchorMax": {
+                      "x": 0.5,
+                      "y": 0.5
+                    },
+                    "offset": {
+                      "x": 0,
+                      "y": 20
+                    },
+                    "size": {
+                      "x": 680,
+                      "y": 60
+                    },
+                    "pivot": {
+                      "x": 0.5,
+                      "y": 0.5
+                    }
+                  },
+                  "CONTROLLER_MOBILE": {
+                    "scale": {
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    },
+                    "rotation": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "anchorMin": {
+                      "x": 0.5,
+                      "y": 0.5
+                    },
+                    "anchorMax": {
+                      "x": 0.5,
+                      "y": 0.5
+                    },
+                    "offset": {
+                      "x": 0,
+                      "y": 20
+                    },
+                    "size": {
+                      "x": 680,
+                      "y": 60
+                    },
+                    "pivot": {
+                      "x": 0.5,
+                      "y": 0.5
+                    }
+                  }
+                },
+                "fontSize": 30,
+                "adaptiveFontSize": false,
+                "minimumFontSize": 12,
+                "fontColor": 4294965477,
+                "bgColor": 0,
+                "enableOutline": false,
+                "outlineColor": 858993459,
+                "horizontalAlignment": "Middle",
+                "verticalAlignment": "Middle",
+                "text": "V3 资源已加载 · 等待 Lua 启动",
+                "guid": 1073900003,
+                "scriptMappingIds": [],
+                "children": []
+              },
+              {
+                "id": "n14",
+                "kind": "button",
+                "name": "StartButton",
+                "active": true,
+                "visible": true,
+                "canControllerFocus": false,
+                "syncAllDevices": true,
+                "transformByPlatform": {
+                  "KEYBOARD": {
+                    "scale": {
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    },
+                    "rotation": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "anchorMin": {
+                      "x": 0.5,
+                      "y": 0.5
+                    },
+                    "anchorMax": {
+                      "x": 0.5,
+                      "y": 0.5
+                    },
+                    "offset": {
+                      "x": 0,
+                      "y": -95
+                    },
+                    "size": {
+                      "x": 270,
+                      "y": 84
+                    },
+                    "pivot": {
+                      "x": 0.5,
+                      "y": 0.5
+                    }
+                  },
+                  "TOUCHSCREEN": {
+                    "scale": {
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    },
+                    "rotation": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "anchorMin": {
+                      "x": 0.5,
+                      "y": 0.5
+                    },
+                    "anchorMax": {
+                      "x": 0.5,
+                      "y": 0.5
+                    },
+                    "offset": {
+                      "x": 0,
+                      "y": -95
+                    },
+                    "size": {
+                      "x": 270,
+                      "y": 84
+                    },
+                    "pivot": {
+                      "x": 0.5,
+                      "y": 0.5
+                    }
+                  },
+                  "CONTROLLER_CONSOLE": {
+                    "scale": {
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    },
+                    "rotation": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "anchorMin": {
+                      "x": 0.5,
+                      "y": 0.5
+                    },
+                    "anchorMax": {
+                      "x": 0.5,
+                      "y": 0.5
+                    },
+                    "offset": {
+                      "x": 0,
+                      "y": -95
+                    },
+                    "size": {
+                      "x": 270,
+                      "y": 84
+                    },
+                    "pivot": {
+                      "x": 0.5,
+                      "y": 0.5
+                    }
+                  },
+                  "CONTROLLER_MOBILE": {
+                    "scale": {
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    },
+                    "rotation": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "anchorMin": {
+                      "x": 0.5,
+                      "y": 0.5
+                    },
+                    "anchorMax": {
+                      "x": 0.5,
+                      "y": 0.5
+                    },
+                    "offset": {
+                      "x": 0,
+                      "y": -95
+                    },
+                    "size": {
+                      "x": 270,
+                      "y": 84
+                    },
+                    "pivot": {
+                      "x": 0.5,
+                      "y": 0.5
+                    }
+                  }
+                },
+                "raycastTarget": true,
+                "interactable": true,
+                "clickAudioId": 50888,
+                "unavailableChildId": null,
+                "hoverChildId": null,
+                "pressedChildId": null,
+                "selectedChildId": null,
+                "guid": 1073900004,
+                "scriptMappingIds": [],
+                "children": [
+                  {
+                    "id": "n15",
+                    "kind": "textbox",
+                    "name": "StartLabel",
+                    "active": true,
+                    "visible": true,
+                    "canControllerFocus": false,
+                    "syncAllDevices": true,
+                    "transformByPlatform": {
+                      "KEYBOARD": {
+                        "scale": {
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        },
+                        "rotation": {
+                          "x": 0,
+                          "y": 0,
+                          "z": 0
+                        },
+                        "anchorMin": {
+                          "x": 0.5,
+                          "y": 0.5
+                        },
+                        "anchorMax": {
+                          "x": 0.5,
+                          "y": 0.5
+                        },
+                        "offset": {
+                          "x": 0,
+                          "y": 0
+                        },
+                        "size": {
+                          "x": 250,
+                          "y": 64
+                        },
+                        "pivot": {
+                          "x": 0.5,
+                          "y": 0.5
+                        }
+                      },
+                      "TOUCHSCREEN": {
+                        "scale": {
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        },
+                        "rotation": {
+                          "x": 0,
+                          "y": 0,
+                          "z": 0
+                        },
+                        "anchorMin": {
+                          "x": 0.5,
+                          "y": 0.5
+                        },
+                        "anchorMax": {
+                          "x": 0.5,
+                          "y": 0.5
+                        },
+                        "offset": {
+                          "x": 0,
+                          "y": 0
+                        },
+                        "size": {
+                          "x": 250,
+                          "y": 64
+                        },
+                        "pivot": {
+                          "x": 0.5,
+                          "y": 0.5
+                        }
+                      },
+                      "CONTROLLER_CONSOLE": {
+                        "scale": {
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        },
+                        "rotation": {
+                          "x": 0,
+                          "y": 0,
+                          "z": 0
+                        },
+                        "anchorMin": {
+                          "x": 0.5,
+                          "y": 0.5
+                        },
+                        "anchorMax": {
+                          "x": 0.5,
+                          "y": 0.5
+                        },
+                        "offset": {
+                          "x": 0,
+                          "y": 0
+                        },
+                        "size": {
+                          "x": 250,
+                          "y": 64
+                        },
+                        "pivot": {
+                          "x": 0.5,
+                          "y": 0.5
+                        }
+                      },
+                      "CONTROLLER_MOBILE": {
+                        "scale": {
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        },
+                        "rotation": {
+                          "x": 0,
+                          "y": 0,
+                          "z": 0
+                        },
+                        "anchorMin": {
+                          "x": 0.5,
+                          "y": 0.5
+                        },
+                        "anchorMax": {
+                          "x": 0.5,
+                          "y": 0.5
+                        },
+                        "offset": {
+                          "x": 0,
+                          "y": 0
+                        },
+                        "size": {
+                          "x": 250,
+                          "y": 64
+                        },
+                        "pivot": {
+                          "x": 0.5,
+                          "y": 0.5
+                        }
+                      }
+                    },
+                    "fontSize": 34,
+                    "adaptiveFontSize": false,
+                    "minimumFontSize": 12,
+                    "fontColor": 4294965477,
+                    "bgColor": 4280696952,
+                    "enableOutline": false,
+                    "outlineColor": 858993459,
+                    "horizontalAlignment": "Middle",
+                    "verticalAlignment": "Middle",
+                    "text": "开始游戏",
+                    "guid": 1073900005,
+                    "scriptMappingIds": [],
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "n16",
+                "kind": "textbox",
+                "name": "TimerLabel",
+                "active": true,
+                "visible": false,
+                "canControllerFocus": false,
+                "syncAllDevices": true,
+                "transformByPlatform": {
+                  "KEYBOARD": {
+                    "scale": {
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    },
+                    "rotation": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "anchorMin": {
+                      "x": 0.5,
+                      "y": 0.5
+                    },
+                    "anchorMax": {
+                      "x": 0.5,
+                      "y": 0.5
+                    },
+                    "offset": {
+                      "x": -493,
+                      "y": 316
+                    },
+                    "size": {
+                      "x": 230,
+                      "y": 42
+                    },
+                    "pivot": {
+                      "x": 0.5,
+                      "y": 0.5
+                    }
+                  },
+                  "TOUCHSCREEN": {
+                    "scale": {
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    },
+                    "rotation": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "anchorMin": {
+                      "x": 0.5,
+                      "y": 0.5
+                    },
+                    "anchorMax": {
+                      "x": 0.5,
+                      "y": 0.5
+                    },
+                    "offset": {
+                      "x": -493,
+                      "y": 316
+                    },
+                    "size": {
+                      "x": 230,
+                      "y": 42
+                    },
+                    "pivot": {
+                      "x": 0.5,
+                      "y": 0.5
+                    }
+                  },
+                  "CONTROLLER_CONSOLE": {
+                    "scale": {
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    },
+                    "rotation": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "anchorMin": {
+                      "x": 0.5,
+                      "y": 0.5
+                    },
+                    "anchorMax": {
+                      "x": 0.5,
+                      "y": 0.5
+                    },
+                    "offset": {
+                      "x": -493,
+                      "y": 316
+                    },
+                    "size": {
+                      "x": 230,
+                      "y": 42
+                    },
+                    "pivot": {
+                      "x": 0.5,
+                      "y": 0.5
+                    }
+                  },
+                  "CONTROLLER_MOBILE": {
+                    "scale": {
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    },
+                    "rotation": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "anchorMin": {
+                      "x": 0.5,
+                      "y": 0.5
+                    },
+                    "anchorMax": {
+                      "x": 0.5,
+                      "y": 0.5
+                    },
+                    "offset": {
+                      "x": -493,
+                      "y": 316
+                    },
+                    "size": {
+                      "x": 230,
+                      "y": 42
+                    },
+                    "pivot": {
+                      "x": 0.5,
+                      "y": 0.5
+                    }
+                  }
+                },
+                "fontSize": 23,
+                "adaptiveFontSize": false,
+                "minimumFontSize": 12,
+                "fontColor": 4294965477,
+                "bgColor": 0,
+                "enableOutline": false,
+                "outlineColor": 858993459,
+                "horizontalAlignment": "Middle",
+                "verticalAlignment": "Middle",
+                "text": "剩余时间",
+                "guid": 1073900006,
+                "scriptMappingIds": [],
+                "children": []
+              },
+              {
+                "id": "n17",
+                "kind": "textbox",
+                "name": "TimerText",
+                "active": true,
+                "visible": false,
+                "canControllerFocus": false,
+                "syncAllDevices": true,
+                "transformByPlatform": {
+                  "KEYBOARD": {
+                    "scale": {
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    },
+                    "rotation": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "anchorMin": {
+                      "x": 0.5,
+                      "y": 0.5
+                    },
+                    "anchorMax": {
+                      "x": 0.5,
+                      "y": 0.5
+                    },
+                    "offset": {
+                      "x": -493,
+                      "y": 242
+                    },
+                    "size": {
+                      "x": 230,
+                      "y": 96
+                    },
+                    "pivot": {
+                      "x": 0.5,
+                      "y": 0.5
+                    }
+                  },
+                  "TOUCHSCREEN": {
+                    "scale": {
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    },
+                    "rotation": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "anchorMin": {
+                      "x": 0.5,
+                      "y": 0.5
+                    },
+                    "anchorMax": {
+                      "x": 0.5,
+                      "y": 0.5
+                    },
+                    "offset": {
+                      "x": -493,
+                      "y": 242
+                    },
+                    "size": {
+                      "x": 230,
+                      "y": 96
+                    },
+                    "pivot": {
+                      "x": 0.5,
+                      "y": 0.5
+                    }
+                  },
+                  "CONTROLLER_CONSOLE": {
+                    "scale": {
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    },
+                    "rotation": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "anchorMin": {
+                      "x": 0.5,
+                      "y": 0.5
+                    },
+                    "anchorMax": {
+                      "x": 0.5,
+                      "y": 0.5
+                    },
+                    "offset": {
+                      "x": -493,
+                      "y": 242
+                    },
+                    "size": {
+                      "x": 230,
+                      "y": 96
+                    },
+                    "pivot": {
+                      "x": 0.5,
+                      "y": 0.5
+                    }
+                  },
+                  "CONTROLLER_MOBILE": {
+                    "scale": {
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    },
+                    "rotation": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "anchorMin": {
+                      "x": 0.5,
+                      "y": 0.5
+                    },
+                    "anchorMax": {
+                      "x": 0.5,
+                      "y": 0.5
+                    },
+                    "offset": {
+                      "x": -493,
+                      "y": 242
+                    },
+                    "size": {
+                      "x": 230,
+                      "y": 96
+                    },
+                    "pivot": {
+                      "x": 0.5,
+                      "y": 0.5
+                    }
+                  }
+                },
+                "fontSize": 40,
+                "adaptiveFontSize": false,
+                "minimumFontSize": 12,
+                "fontColor": 4294959760,
+                "bgColor": 0,
+                "enableOutline": false,
+                "outlineColor": 858993459,
+                "horizontalAlignment": "Middle",
+                "verticalAlignment": "Middle",
+                "text": "30",
+                "guid": 1073900007,
+                "scriptMappingIds": [],
+                "children": []
+              },
+              {
+                "id": "n18",
+                "kind": "textbox",
+                "name": "ScoreLabel",
+                "active": true,
+                "visible": false,
+                "canControllerFocus": false,
+                "syncAllDevices": true,
+                "transformByPlatform": {
+                  "KEYBOARD": {
+                    "scale": {
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    },
+                    "rotation": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "anchorMin": {
+                      "x": 0.5,
+                      "y": 0.5
+                    },
+                    "anchorMax": {
+                      "x": 0.5,
+                      "y": 0.5
+                    },
+                    "offset": {
+                      "x": 493,
+                      "y": 316
+                    },
+                    "size": {
+                      "x": 230,
+                      "y": 42
+                    },
+                    "pivot": {
+                      "x": 0.5,
+                      "y": 0.5
+                    }
+                  },
+                  "TOUCHSCREEN": {
+                    "scale": {
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    },
+                    "rotation": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "anchorMin": {
+                      "x": 0.5,
+                      "y": 0.5
+                    },
+                    "anchorMax": {
+                      "x": 0.5,
+                      "y": 0.5
+                    },
+                    "offset": {
+                      "x": 493,
+                      "y": 316
+                    },
+                    "size": {
+                      "x": 230,
+                      "y": 42
+                    },
+                    "pivot": {
+                      "x": 0.5,
+                      "y": 0.5
+                    }
+                  },
+                  "CONTROLLER_CONSOLE": {
+                    "scale": {
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    },
+                    "rotation": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "anchorMin": {
+                      "x": 0.5,
+                      "y": 0.5
+                    },
+                    "anchorMax": {
+                      "x": 0.5,
+                      "y": 0.5
+                    },
+                    "offset": {
+                      "x": 493,
+                      "y": 316
+                    },
+                    "size": {
+                      "x": 230,
+                      "y": 42
+                    },
+                    "pivot": {
+                      "x": 0.5,
+                      "y": 0.5
+                    }
+                  },
+                  "CONTROLLER_MOBILE": {
+                    "scale": {
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    },
+                    "rotation": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "anchorMin": {
+                      "x": 0.5,
+                      "y": 0.5
+                    },
+                    "anchorMax": {
+                      "x": 0.5,
+                      "y": 0.5
+                    },
+                    "offset": {
+                      "x": 493,
+                      "y": 316
+                    },
+                    "size": {
+                      "x": 230,
+                      "y": 42
+                    },
+                    "pivot": {
+                      "x": 0.5,
+                      "y": 0.5
+                    }
+                  }
+                },
+                "fontSize": 23,
+                "adaptiveFontSize": false,
+                "minimumFontSize": 12,
+                "fontColor": 4294965477,
+                "bgColor": 0,
+                "enableOutline": false,
+                "outlineColor": 858993459,
+                "horizontalAlignment": "Middle",
+                "verticalAlignment": "Middle",
+                "text": "当前得分",
+                "guid": 1073900008,
+                "scriptMappingIds": [],
+                "children": []
+              },
+              {
+                "id": "n19",
+                "kind": "textbox",
+                "name": "ScoreText",
+                "active": true,
+                "visible": false,
+                "canControllerFocus": false,
+                "syncAllDevices": true,
+                "transformByPlatform": {
+                  "KEYBOARD": {
+                    "scale": {
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    },
+                    "rotation": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "anchorMin": {
+                      "x": 0.5,
+                      "y": 0.5
+                    },
+                    "anchorMax": {
+                      "x": 0.5,
+                      "y": 0.5
+                    },
+                    "offset": {
+                      "x": 493,
+                      "y": 242
+                    },
+                    "size": {
+                      "x": 230,
+                      "y": 96
+                    },
+                    "pivot": {
+                      "x": 0.5,
+                      "y": 0.5
+                    }
+                  },
+                  "TOUCHSCREEN": {
+                    "scale": {
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    },
+                    "rotation": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "anchorMin": {
+                      "x": 0.5,
+                      "y": 0.5
+                    },
+                    "anchorMax": {
+                      "x": 0.5,
+                      "y": 0.5
+                    },
+                    "offset": {
+                      "x": 493,
+                      "y": 242
+                    },
+                    "size": {
+                      "x": 230,
+                      "y": 96
+                    },
+                    "pivot": {
+                      "x": 0.5,
+                      "y": 0.5
+                    }
+                  },
+                  "CONTROLLER_CONSOLE": {
+                    "scale": {
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    },
+                    "rotation": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "anchorMin": {
+                      "x": 0.5,
+                      "y": 0.5
+                    },
+                    "anchorMax": {
+                      "x": 0.5,
+                      "y": 0.5
+                    },
+                    "offset": {
+                      "x": 493,
+                      "y": 242
+                    },
+                    "size": {
+                      "x": 230,
+                      "y": 96
+                    },
+                    "pivot": {
+                      "x": 0.5,
+                      "y": 0.5
+                    }
+                  },
+                  "CONTROLLER_MOBILE": {
+                    "scale": {
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    },
+                    "rotation": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "anchorMin": {
+                      "x": 0.5,
+                      "y": 0.5
+                    },
+                    "anchorMax": {
+                      "x": 0.5,
+                      "y": 0.5
+                    },
+                    "offset": {
+                      "x": 493,
+                      "y": 242
+                    },
+                    "size": {
+                      "x": 230,
+                      "y": 96
+                    },
+                    "pivot": {
+                      "x": 0.5,
+                      "y": 0.5
+                    }
+                  }
+                },
+                "fontSize": 40,
+                "adaptiveFontSize": false,
+                "minimumFontSize": 12,
+                "fontColor": 4294959760,
+                "bgColor": 0,
+                "enableOutline": false,
+                "outlineColor": 858993459,
+                "horizontalAlignment": "Middle",
+                "verticalAlignment": "Middle",
+                "text": "0",
+                "guid": 1073900009,
+                "scriptMappingIds": [],
+                "children": []
+              },
+              {
+                "id": "n20",
+                "kind": "cursor",
+                "name": "PaimonTarget",
+                "active": true,
+                "visible": false,
+                "canControllerFocus": false,
+                "syncAllDevices": true,
+                "transformByPlatform": {
+                  "KEYBOARD": {
+                    "scale": {
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    },
+                    "rotation": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "anchorMin": {
+                      "x": 0.5,
+                      "y": 0.5
+                    },
+                    "anchorMax": {
+                      "x": 0.5,
+                      "y": 0.5
+                    },
+                    "offset": {
+                      "x": 0,
+                      "y": 0
+                    },
+                    "size": {
+                      "x": 164,
+                      "y": 164
+                    },
+                    "pivot": {
+                      "x": 0.5,
+                      "y": 0.5
+                    }
+                  },
+                  "TOUCHSCREEN": {
+                    "scale": {
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    },
+                    "rotation": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "anchorMin": {
+                      "x": 0.5,
+                      "y": 0.5
+                    },
+                    "anchorMax": {
+                      "x": 0.5,
+                      "y": 0.5
+                    },
+                    "offset": {
+                      "x": 0,
+                      "y": 0
+                    },
+                    "size": {
+                      "x": 164,
+                      "y": 164
+                    },
+                    "pivot": {
+                      "x": 0.5,
+                      "y": 0.5
+                    }
+                  },
+                  "CONTROLLER_CONSOLE": {
+                    "scale": {
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    },
+                    "rotation": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "anchorMin": {
+                      "x": 0.5,
+                      "y": 0.5
+                    },
+                    "anchorMax": {
+                      "x": 0.5,
+                      "y": 0.5
+                    },
+                    "offset": {
+                      "x": 0,
+                      "y": 0
+                    },
+                    "size": {
+                      "x": 164,
+                      "y": 164
+                    },
+                    "pivot": {
+                      "x": 0.5,
+                      "y": 0.5
+                    }
+                  },
+                  "CONTROLLER_MOBILE": {
+                    "scale": {
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    },
+                    "rotation": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "anchorMin": {
+                      "x": 0.5,
+                      "y": 0.5
+                    },
+                    "anchorMax": {
+                      "x": 0.5,
+                      "y": 0.5
+                    },
+                    "offset": {
+                      "x": 0,
+                      "y": 0
+                    },
+                    "size": {
+                      "x": 164,
+                      "y": 164
+                    },
+                    "pivot": {
+                      "x": 0.5,
+                      "y": 0.5
+                    }
+                  }
+                },
+                "raycastTarget": true,
+                "guid": 1073900010,
+                "scriptMappingIds": [],
+                "children": [
+                  {
+                    "id": "n21",
+                    "kind": "textbox",
+                    "name": "PaimonName",
+                    "active": true,
+                    "visible": true,
+                    "canControllerFocus": false,
+                    "syncAllDevices": true,
+                    "transformByPlatform": {
+                      "KEYBOARD": {
+                        "scale": {
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        },
+                        "rotation": {
+                          "x": 0,
+                          "y": 0,
+                          "z": 0
+                        },
+                        "anchorMin": {
+                          "x": 0.5,
+                          "y": 0.5
+                        },
+                        "anchorMax": {
+                          "x": 0.5,
+                          "y": 0.5
+                        },
+                        "offset": {
+                          "x": 0,
+                          "y": -50
+                        },
+                        "size": {
+                          "x": 120,
+                          "y": 36
+                        },
+                        "pivot": {
+                          "x": 0.5,
+                          "y": 0.5
+                        }
+                      },
+                      "TOUCHSCREEN": {
+                        "scale": {
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        },
+                        "rotation": {
+                          "x": 0,
+                          "y": 0,
+                          "z": 0
+                        },
+                        "anchorMin": {
+                          "x": 0.5,
+                          "y": 0.5
+                        },
+                        "anchorMax": {
+                          "x": 0.5,
+                          "y": 0.5
+                        },
+                        "offset": {
+                          "x": 0,
+                          "y": -50
+                        },
+                        "size": {
+                          "x": 120,
+                          "y": 36
+                        },
+                        "pivot": {
+                          "x": 0.5,
+                          "y": 0.5
+                        }
+                      },
+                      "CONTROLLER_CONSOLE": {
+                        "scale": {
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        },
+                        "rotation": {
+                          "x": 0,
+                          "y": 0,
+                          "z": 0
+                        },
+                        "anchorMin": {
+                          "x": 0.5,
+                          "y": 0.5
+                        },
+                        "anchorMax": {
+                          "x": 0.5,
+                          "y": 0.5
+                        },
+                        "offset": {
+                          "x": 0,
+                          "y": -50
+                        },
+                        "size": {
+                          "x": 120,
+                          "y": 36
+                        },
+                        "pivot": {
+                          "x": 0.5,
+                          "y": 0.5
+                        }
+                      },
+                      "CONTROLLER_MOBILE": {
+                        "scale": {
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        },
+                        "rotation": {
+                          "x": 0,
+                          "y": 0,
+                          "z": 0
+                        },
+                        "anchorMin": {
+                          "x": 0.5,
+                          "y": 0.5
+                        },
+                        "anchorMax": {
+                          "x": 0.5,
+                          "y": 0.5
+                        },
+                        "offset": {
+                          "x": 0,
+                          "y": -50
+                        },
+                        "size": {
+                          "x": 120,
+                          "y": 36
+                        },
+                        "pivot": {
+                          "x": 0.5,
+                          "y": 0.5
+                        }
+                      }
+                    },
+                    "fontSize": 25,
+                    "adaptiveFontSize": false,
+                    "minimumFontSize": 12,
+                    "fontColor": 4280696952,
+                    "bgColor": 0,
+                    "enableOutline": false,
+                    "outlineColor": 858993459,
+                    "horizontalAlignment": "Middle",
+                    "verticalAlignment": "Middle",
+                    "text": "派蒙",
+                    "guid": 1073900011,
+                    "scriptMappingIds": [],
+                    "children": []
+                  },
+                  {
+                    "id": "n22",
+                    "kind": "image",
+                    "name": "PaimonLeftEye",
+                    "active": true,
+                    "visible": true,
+                    "canControllerFocus": false,
+                    "syncAllDevices": true,
+                    "transformByPlatform": {
+                      "KEYBOARD": {
+                        "scale": {
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        },
+                        "rotation": {
+                          "x": 0,
+                          "y": 0,
+                          "z": 0
+                        },
+                        "anchorMin": {
+                          "x": 0.5,
+                          "y": 0.5
+                        },
+                        "anchorMax": {
+                          "x": 0.5,
+                          "y": 0.5
+                        },
+                        "offset": {
+                          "x": -20,
+                          "y": -7
+                        },
+                        "size": {
+                          "x": 13,
+                          "y": 19
+                        },
+                        "pivot": {
+                          "x": 0.5,
+                          "y": 0.5
+                        }
+                      },
+                      "TOUCHSCREEN": {
+                        "scale": {
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        },
+                        "rotation": {
+                          "x": 0,
+                          "y": 0,
+                          "z": 0
+                        },
+                        "anchorMin": {
+                          "x": 0.5,
+                          "y": 0.5
+                        },
+                        "anchorMax": {
+                          "x": 0.5,
+                          "y": 0.5
+                        },
+                        "offset": {
+                          "x": -20,
+                          "y": -7
+                        },
+                        "size": {
+                          "x": 13,
+                          "y": 19
+                        },
+                        "pivot": {
+                          "x": 0.5,
+                          "y": 0.5
+                        }
+                      },
+                      "CONTROLLER_CONSOLE": {
+                        "scale": {
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        },
+                        "rotation": {
+                          "x": 0,
+                          "y": 0,
+                          "z": 0
+                        },
+                        "anchorMin": {
+                          "x": 0.5,
+                          "y": 0.5
+                        },
+                        "anchorMax": {
+                          "x": 0.5,
+                          "y": 0.5
+                        },
+                        "offset": {
+                          "x": -20,
+                          "y": -7
+                        },
+                        "size": {
+                          "x": 13,
+                          "y": 19
+                        },
+                        "pivot": {
+                          "x": 0.5,
+                          "y": 0.5
+                        }
+                      },
+                      "CONTROLLER_MOBILE": {
+                        "scale": {
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        },
+                        "rotation": {
+                          "x": 0,
+                          "y": 0,
+                          "z": 0
+                        },
+                        "anchorMin": {
+                          "x": 0.5,
+                          "y": 0.5
+                        },
+                        "anchorMax": {
+                          "x": 0.5,
+                          "y": 0.5
+                        },
+                        "offset": {
+                          "x": -20,
+                          "y": -7
+                        },
+                        "size": {
+                          "x": 13,
+                          "y": 19
+                        },
+                        "pivot": {
+                          "x": 0.5,
+                          "y": 0.5
+                        }
+                      }
+                    },
+                    "imageSource": "StaticReference",
+                    "imageType": null,
+                    "imageId": 100002,
+                    "imageColor": 4281886898,
+                    "enableMask": false,
+                    "enableSoftEdge": false,
+                    "softEdgeMode": "Percentage",
+                    "softEdgeWidthX": 8,
+                    "softEdgeWidthY": 8,
+                    "horizontalSoftRange": 85,
+                    "verticalSoftRange": 85,
+                    "enableFill": false,
+                    "fillType": "Horizontal",
+                    "fillHorizontalType": "Left",
+                    "fillVerticalType": "Bottom",
+                    "fillRadial90Type": "BottomLeft",
+                    "fillRadialType": "Bottom",
+                    "fillAmount": 1,
+                    "reverseMaskArea": false,
+                    "guid": 1073900012,
+                    "scriptMappingIds": [],
+                    "children": []
+                  },
+                  {
+                    "id": "n23",
+                    "kind": "image",
+                    "name": "PaimonRightEye",
+                    "active": true,
+                    "visible": true,
+                    "canControllerFocus": false,
+                    "syncAllDevices": true,
+                    "transformByPlatform": {
+                      "KEYBOARD": {
+                        "scale": {
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        },
+                        "rotation": {
+                          "x": 0,
+                          "y": 0,
+                          "z": 0
+                        },
+                        "anchorMin": {
+                          "x": 0.5,
+                          "y": 0.5
+                        },
+                        "anchorMax": {
+                          "x": 0.5,
+                          "y": 0.5
+                        },
+                        "offset": {
+                          "x": 20,
+                          "y": -7
+                        },
+                        "size": {
+                          "x": 13,
+                          "y": 19
+                        },
+                        "pivot": {
+                          "x": 0.5,
+                          "y": 0.5
+                        }
+                      },
+                      "TOUCHSCREEN": {
+                        "scale": {
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        },
+                        "rotation": {
+                          "x": 0,
+                          "y": 0,
+                          "z": 0
+                        },
+                        "anchorMin": {
+                          "x": 0.5,
+                          "y": 0.5
+                        },
+                        "anchorMax": {
+                          "x": 0.5,
+                          "y": 0.5
+                        },
+                        "offset": {
+                          "x": 20,
+                          "y": -7
+                        },
+                        "size": {
+                          "x": 13,
+                          "y": 19
+                        },
+                        "pivot": {
+                          "x": 0.5,
+                          "y": 0.5
+                        }
+                      },
+                      "CONTROLLER_CONSOLE": {
+                        "scale": {
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        },
+                        "rotation": {
+                          "x": 0,
+                          "y": 0,
+                          "z": 0
+                        },
+                        "anchorMin": {
+                          "x": 0.5,
+                          "y": 0.5
+                        },
+                        "anchorMax": {
+                          "x": 0.5,
+                          "y": 0.5
+                        },
+                        "offset": {
+                          "x": 20,
+                          "y": -7
+                        },
+                        "size": {
+                          "x": 13,
+                          "y": 19
+                        },
+                        "pivot": {
+                          "x": 0.5,
+                          "y": 0.5
+                        }
+                      },
+                      "CONTROLLER_MOBILE": {
+                        "scale": {
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        },
+                        "rotation": {
+                          "x": 0,
+                          "y": 0,
+                          "z": 0
+                        },
+                        "anchorMin": {
+                          "x": 0.5,
+                          "y": 0.5
+                        },
+                        "anchorMax": {
+                          "x": 0.5,
+                          "y": 0.5
+                        },
+                        "offset": {
+                          "x": 20,
+                          "y": -7
+                        },
+                        "size": {
+                          "x": 13,
+                          "y": 19
+                        },
+                        "pivot": {
+                          "x": 0.5,
+                          "y": 0.5
+                        }
+                      }
+                    },
+                    "imageSource": "StaticReference",
+                    "imageType": null,
+                    "imageId": 100002,
+                    "imageColor": 4281886898,
+                    "enableMask": false,
+                    "enableSoftEdge": false,
+                    "softEdgeMode": "Percentage",
+                    "softEdgeWidthX": 8,
+                    "softEdgeWidthY": 8,
+                    "horizontalSoftRange": 85,
+                    "verticalSoftRange": 85,
+                    "enableFill": false,
+                    "fillType": "Horizontal",
+                    "fillHorizontalType": "Left",
+                    "fillVerticalType": "Bottom",
+                    "fillRadial90Type": "BottomLeft",
+                    "fillRadialType": "Bottom",
+                    "fillAmount": 1,
+                    "reverseMaskArea": false,
+                    "guid": 1073900013,
+                    "scriptMappingIds": [],
+                    "children": []
+                  },
+                  {
+                    "id": "n24",
+                    "kind": "image",
+                    "name": "PaimonHalo",
+                    "active": true,
+                    "visible": true,
+                    "canControllerFocus": false,
+                    "syncAllDevices": true,
+                    "transformByPlatform": {
+                      "KEYBOARD": {
+                        "scale": {
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        },
+                        "rotation": {
+                          "x": 0,
+                          "y": 0,
+                          "z": 0
+                        },
+                        "anchorMin": {
+                          "x": 0.5,
+                          "y": 0.5
+                        },
+                        "anchorMax": {
+                          "x": 0.5,
+                          "y": 0.5
+                        },
+                        "offset": {
+                          "x": 0,
+                          "y": 68
+                        },
+                        "size": {
+                          "x": 60,
+                          "y": 48
+                        },
+                        "pivot": {
+                          "x": 0.5,
+                          "y": 0.5
+                        }
+                      },
+                      "TOUCHSCREEN": {
+                        "scale": {
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        },
+                        "rotation": {
+                          "x": 0,
+                          "y": 0,
+                          "z": 0
+                        },
+                        "anchorMin": {
+                          "x": 0.5,
+                          "y": 0.5
+                        },
+                        "anchorMax": {
+                          "x": 0.5,
+                          "y": 0.5
+                        },
+                        "offset": {
+                          "x": 0,
+                          "y": 68
+                        },
+                        "size": {
+                          "x": 60,
+                          "y": 48
+                        },
+                        "pivot": {
+                          "x": 0.5,
+                          "y": 0.5
+                        }
+                      },
+                      "CONTROLLER_CONSOLE": {
+                        "scale": {
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        },
+                        "rotation": {
+                          "x": 0,
+                          "y": 0,
+                          "z": 0
+                        },
+                        "anchorMin": {
+                          "x": 0.5,
+                          "y": 0.5
+                        },
+                        "anchorMax": {
+                          "x": 0.5,
+                          "y": 0.5
+                        },
+                        "offset": {
+                          "x": 0,
+                          "y": 68
+                        },
+                        "size": {
+                          "x": 60,
+                          "y": 48
+                        },
+                        "pivot": {
+                          "x": 0.5,
+                          "y": 0.5
+                        }
+                      },
+                      "CONTROLLER_MOBILE": {
+                        "scale": {
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        },
+                        "rotation": {
+                          "x": 0,
+                          "y": 0,
+                          "z": 0
+                        },
+                        "anchorMin": {
+                          "x": 0.5,
+                          "y": 0.5
+                        },
+                        "anchorMax": {
+                          "x": 0.5,
+                          "y": 0.5
+                        },
+                        "offset": {
+                          "x": 0,
+                          "y": 68
+                        },
+                        "size": {
+                          "x": 60,
+                          "y": 48
+                        },
+                        "pivot": {
+                          "x": 0.5,
+                          "y": 0.5
+                        }
+                      }
+                    },
+                    "imageSource": "StaticReference",
+                    "imageType": null,
+                    "imageId": 100005,
+                    "imageColor": 4294962082,
+                    "enableMask": false,
+                    "enableSoftEdge": false,
+                    "softEdgeMode": "Percentage",
+                    "softEdgeWidthX": 8,
+                    "softEdgeWidthY": 8,
+                    "horizontalSoftRange": 85,
+                    "verticalSoftRange": 85,
+                    "enableFill": false,
+                    "fillType": "Horizontal",
+                    "fillHorizontalType": "Left",
+                    "fillVerticalType": "Bottom",
+                    "fillRadial90Type": "BottomLeft",
+                    "fillRadialType": "Bottom",
+                    "fillAmount": 1,
+                    "reverseMaskArea": false,
+                    "guid": 1073900014,
+                    "scriptMappingIds": [],
+                    "children": []
+                  },
+                  {
+                    "id": "n25",
+                    "kind": "image",
+                    "name": "PaimonFace",
+                    "active": true,
+                    "visible": true,
+                    "canControllerFocus": false,
+                    "syncAllDevices": true,
+                    "transformByPlatform": {
+                      "KEYBOARD": {
+                        "scale": {
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        },
+                        "rotation": {
+                          "x": 0,
+                          "y": 0,
+                          "z": 0
+                        },
+                        "anchorMin": {
+                          "x": 0.5,
+                          "y": 0.5
+                        },
+                        "anchorMax": {
+                          "x": 0.5,
+                          "y": 0.5
+                        },
+                        "offset": {
+                          "x": 0,
+                          "y": -13
+                        },
+                        "size": {
+                          "x": 96,
+                          "y": 89
+                        },
+                        "pivot": {
+                          "x": 0.5,
+                          "y": 0.5
+                        }
+                      },
+                      "TOUCHSCREEN": {
+                        "scale": {
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        },
+                        "rotation": {
+                          "x": 0,
+                          "y": 0,
+                          "z": 0
+                        },
+                        "anchorMin": {
+                          "x": 0.5,
+                          "y": 0.5
+                        },
+                        "anchorMax": {
+                          "x": 0.5,
+                          "y": 0.5
+                        },
+                        "offset": {
+                          "x": 0,
+                          "y": -13
+                        },
+                        "size": {
+                          "x": 96,
+                          "y": 89
+                        },
+                        "pivot": {
+                          "x": 0.5,
+                          "y": 0.5
+                        }
+                      },
+                      "CONTROLLER_CONSOLE": {
+                        "scale": {
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        },
+                        "rotation": {
+                          "x": 0,
+                          "y": 0,
+                          "z": 0
+                        },
+                        "anchorMin": {
+                          "x": 0.5,
+                          "y": 0.5
+                        },
+                        "anchorMax": {
+                          "x": 0.5,
+                          "y": 0.5
+                        },
+                        "offset": {
+                          "x": 0,
+                          "y": -13
+                        },
+                        "size": {
+                          "x": 96,
+                          "y": 89
+                        },
+                        "pivot": {
+                          "x": 0.5,
+                          "y": 0.5
+                        }
+                      },
+                      "CONTROLLER_MOBILE": {
+                        "scale": {
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        },
+                        "rotation": {
+                          "x": 0,
+                          "y": 0,
+                          "z": 0
+                        },
+                        "anchorMin": {
+                          "x": 0.5,
+                          "y": 0.5
+                        },
+                        "anchorMax": {
+                          "x": 0.5,
+                          "y": 0.5
+                        },
+                        "offset": {
+                          "x": 0,
+                          "y": -13
+                        },
+                        "size": {
+                          "x": 96,
+                          "y": 89
+                        },
+                        "pivot": {
+                          "x": 0.5,
+                          "y": 0.5
+                        }
+                      }
+                    },
+                    "imageSource": "StaticReference",
+                    "imageType": null,
+                    "imageId": 100002,
+                    "imageColor": 4294960083,
+                    "enableMask": false,
+                    "enableSoftEdge": false,
+                    "softEdgeMode": "Percentage",
+                    "softEdgeWidthX": 8,
+                    "softEdgeWidthY": 8,
+                    "horizontalSoftRange": 85,
+                    "verticalSoftRange": 85,
+                    "enableFill": false,
+                    "fillType": "Horizontal",
+                    "fillHorizontalType": "Left",
+                    "fillVerticalType": "Bottom",
+                    "fillRadial90Type": "BottomLeft",
+                    "fillRadialType": "Bottom",
+                    "fillAmount": 1,
+                    "reverseMaskArea": false,
+                    "guid": 1073900015,
+                    "scriptMappingIds": [],
+                    "children": []
+                  },
+                  {
+                    "id": "n26",
+                    "kind": "image",
+                    "name": "PaimonHair",
+                    "active": true,
+                    "visible": true,
+                    "canControllerFocus": false,
+                    "syncAllDevices": true,
+                    "transformByPlatform": {
+                      "KEYBOARD": {
+                        "scale": {
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        },
+                        "rotation": {
+                          "x": 0,
+                          "y": 0,
+                          "z": 0
+                        },
+                        "anchorMin": {
+                          "x": 0.5,
+                          "y": 0.5
+                        },
+                        "anchorMax": {
+                          "x": 0.5,
+                          "y": 0.5
+                        },
+                        "offset": {
+                          "x": 0,
+                          "y": -3
+                        },
+                        "size": {
+                          "x": 126,
+                          "y": 126
+                        },
+                        "pivot": {
+                          "x": 0.5,
+                          "y": 0.5
+                        }
+                      },
+                      "TOUCHSCREEN": {
+                        "scale": {
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        },
+                        "rotation": {
+                          "x": 0,
+                          "y": 0,
+                          "z": 0
+                        },
+                        "anchorMin": {
+                          "x": 0.5,
+                          "y": 0.5
+                        },
+                        "anchorMax": {
+                          "x": 0.5,
+                          "y": 0.5
+                        },
+                        "offset": {
+                          "x": 0,
+                          "y": -3
+                        },
+                        "size": {
+                          "x": 126,
+                          "y": 126
+                        },
+                        "pivot": {
+                          "x": 0.5,
+                          "y": 0.5
+                        }
+                      },
+                      "CONTROLLER_CONSOLE": {
+                        "scale": {
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        },
+                        "rotation": {
+                          "x": 0,
+                          "y": 0,
+                          "z": 0
+                        },
+                        "anchorMin": {
+                          "x": 0.5,
+                          "y": 0.5
+                        },
+                        "anchorMax": {
+                          "x": 0.5,
+                          "y": 0.5
+                        },
+                        "offset": {
+                          "x": 0,
+                          "y": -3
+                        },
+                        "size": {
+                          "x": 126,
+                          "y": 126
+                        },
+                        "pivot": {
+                          "x": 0.5,
+                          "y": 0.5
+                        }
+                      },
+                      "CONTROLLER_MOBILE": {
+                        "scale": {
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        },
+                        "rotation": {
+                          "x": 0,
+                          "y": 0,
+                          "z": 0
+                        },
+                        "anchorMin": {
+                          "x": 0.5,
+                          "y": 0.5
+                        },
+                        "anchorMax": {
+                          "x": 0.5,
+                          "y": 0.5
+                        },
+                        "offset": {
+                          "x": 0,
+                          "y": -3
+                        },
+                        "size": {
+                          "x": 126,
+                          "y": 126
+                        },
+                        "pivot": {
+                          "x": 0.5,
+                          "y": 0.5
+                        }
+                      }
+                    },
+                    "imageSource": "StaticReference",
+                    "imageType": null,
+                    "imageId": 100002,
+                    "imageColor": 4294507252,
+                    "enableMask": false,
+                    "enableSoftEdge": false,
+                    "softEdgeMode": "Percentage",
+                    "softEdgeWidthX": 8,
+                    "softEdgeWidthY": 8,
+                    "horizontalSoftRange": 85,
+                    "verticalSoftRange": 85,
+                    "enableFill": false,
+                    "fillType": "Horizontal",
+                    "fillHorizontalType": "Left",
+                    "fillVerticalType": "Bottom",
+                    "fillRadial90Type": "BottomLeft",
+                    "fillRadialType": "Bottom",
+                    "fillAmount": 1,
+                    "reverseMaskArea": false,
+                    "guid": 1073900016,
+                    "scriptMappingIds": [],
+                    "children": []
+                  },
+                  {
+                    "id": "n27",
+                    "kind": "image",
+                    "name": "PaimonAura",
+                    "active": true,
+                    "visible": true,
+                    "canControllerFocus": false,
+                    "syncAllDevices": true,
+                    "transformByPlatform": {
+                      "KEYBOARD": {
+                        "scale": {
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        },
+                        "rotation": {
+                          "x": 0,
+                          "y": 0,
+                          "z": 0
+                        },
+                        "anchorMin": {
+                          "x": 0.5,
+                          "y": 0.5
+                        },
+                        "anchorMax": {
+                          "x": 0.5,
+                          "y": 0.5
+                        },
+                        "offset": {
+                          "x": 0,
+                          "y": 0
+                        },
+                        "size": {
+                          "x": 158,
+                          "y": 158
+                        },
+                        "pivot": {
+                          "x": 0.5,
+                          "y": 0.5
+                        }
+                      },
+                      "TOUCHSCREEN": {
+                        "scale": {
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        },
+                        "rotation": {
+                          "x": 0,
+                          "y": 0,
+                          "z": 0
+                        },
+                        "anchorMin": {
+                          "x": 0.5,
+                          "y": 0.5
+                        },
+                        "anchorMax": {
+                          "x": 0.5,
+                          "y": 0.5
+                        },
+                        "offset": {
+                          "x": 0,
+                          "y": 0
+                        },
+                        "size": {
+                          "x": 158,
+                          "y": 158
+                        },
+                        "pivot": {
+                          "x": 0.5,
+                          "y": 0.5
+                        }
+                      },
+                      "CONTROLLER_CONSOLE": {
+                        "scale": {
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        },
+                        "rotation": {
+                          "x": 0,
+                          "y": 0,
+                          "z": 0
+                        },
+                        "anchorMin": {
+                          "x": 0.5,
+                          "y": 0.5
+                        },
+                        "anchorMax": {
+                          "x": 0.5,
+                          "y": 0.5
+                        },
+                        "offset": {
+                          "x": 0,
+                          "y": 0
+                        },
+                        "size": {
+                          "x": 158,
+                          "y": 158
+                        },
+                        "pivot": {
+                          "x": 0.5,
+                          "y": 0.5
+                        }
+                      },
+                      "CONTROLLER_MOBILE": {
+                        "scale": {
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        },
+                        "rotation": {
+                          "x": 0,
+                          "y": 0,
+                          "z": 0
+                        },
+                        "anchorMin": {
+                          "x": 0.5,
+                          "y": 0.5
+                        },
+                        "anchorMax": {
+                          "x": 0.5,
+                          "y": 0.5
+                        },
+                        "offset": {
+                          "x": 0,
+                          "y": 0
+                        },
+                        "size": {
+                          "x": 158,
+                          "y": 158
+                        },
+                        "pivot": {
+                          "x": 0.5,
+                          "y": 0.5
+                        }
+                      }
+                    },
+                    "imageSource": "StaticReference",
+                    "imageType": null,
+                    "imageId": 100002,
+                    "imageColor": 3372210566,
+                    "enableMask": false,
+                    "enableSoftEdge": false,
+                    "softEdgeMode": "Percentage",
+                    "softEdgeWidthX": 8,
+                    "softEdgeWidthY": 8,
+                    "horizontalSoftRange": 85,
+                    "verticalSoftRange": 85,
+                    "enableFill": false,
+                    "fillType": "Horizontal",
+                    "fillHorizontalType": "Left",
+                    "fillVerticalType": "Bottom",
+                    "fillRadial90Type": "BottomLeft",
+                    "fillRadialType": "Bottom",
+                    "fillAmount": 1,
+                    "reverseMaskArea": false,
+                    "guid": 1073900017,
+                    "scriptMappingIds": [],
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "n28",
+                "kind": "textbox",
+                "name": "HitFeedback",
+                "active": true,
+                "visible": false,
+                "canControllerFocus": false,
+                "syncAllDevices": true,
+                "transformByPlatform": {
+                  "KEYBOARD": {
+                    "scale": {
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    },
+                    "rotation": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "anchorMin": {
+                      "x": 0.5,
+                      "y": 0.5
+                    },
+                    "anchorMax": {
+                      "x": 0.5,
+                      "y": 0.5
+                    },
+                    "offset": {
+                      "x": 0,
+                      "y": 0
+                    },
+                    "size": {
+                      "x": 100,
+                      "y": 54
+                    },
+                    "pivot": {
+                      "x": 0.5,
+                      "y": 0.5
+                    }
+                  },
+                  "TOUCHSCREEN": {
+                    "scale": {
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    },
+                    "rotation": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "anchorMin": {
+                      "x": 0.5,
+                      "y": 0.5
+                    },
+                    "anchorMax": {
+                      "x": 0.5,
+                      "y": 0.5
+                    },
+                    "offset": {
+                      "x": 0,
+                      "y": 0
+                    },
+                    "size": {
+                      "x": 100,
+                      "y": 54
+                    },
+                    "pivot": {
+                      "x": 0.5,
+                      "y": 0.5
+                    }
+                  },
+                  "CONTROLLER_CONSOLE": {
+                    "scale": {
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    },
+                    "rotation": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "anchorMin": {
+                      "x": 0.5,
+                      "y": 0.5
+                    },
+                    "anchorMax": {
+                      "x": 0.5,
+                      "y": 0.5
+                    },
+                    "offset": {
+                      "x": 0,
+                      "y": 0
+                    },
+                    "size": {
+                      "x": 100,
+                      "y": 54
+                    },
+                    "pivot": {
+                      "x": 0.5,
+                      "y": 0.5
+                    }
+                  },
+                  "CONTROLLER_MOBILE": {
+                    "scale": {
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    },
+                    "rotation": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "anchorMin": {
+                      "x": 0.5,
+                      "y": 0.5
+                    },
+                    "anchorMax": {
+                      "x": 0.5,
+                      "y": 0.5
+                    },
+                    "offset": {
+                      "x": 0,
+                      "y": 0
+                    },
+                    "size": {
+                      "x": 100,
+                      "y": 54
+                    },
+                    "pivot": {
+                      "x": 0.5,
+                      "y": 0.5
+                    }
+                  }
+                },
+                "fontSize": 36,
+                "adaptiveFontSize": false,
+                "minimumFontSize": 12,
+                "fontColor": 4294959760,
+                "bgColor": 0,
+                "enableOutline": false,
+                "outlineColor": 858993459,
+                "horizontalAlignment": "Middle",
+                "verticalAlignment": "Middle",
+                "text": "+1",
+                "guid": 1073900018,
+                "scriptMappingIds": [],
+                "children": []
+              },
+              {
+                "id": "n29",
+                "kind": "textbox",
+                "name": "ResultTitle",
+                "active": true,
+                "visible": false,
+                "canControllerFocus": false,
+                "syncAllDevices": true,
+                "transformByPlatform": {
+                  "KEYBOARD": {
+                    "scale": {
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    },
+                    "rotation": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "anchorMin": {
+                      "x": 0.5,
+                      "y": 0.5
+                    },
+                    "anchorMax": {
+                      "x": 0.5,
+                      "y": 0.5
+                    },
+                    "offset": {
+                      "x": 0,
+                      "y": 145
+                    },
+                    "size": {
+                      "x": 620,
+                      "y": 90
+                    },
+                    "pivot": {
+                      "x": 0.5,
+                      "y": 0.5
+                    }
+                  },
+                  "TOUCHSCREEN": {
+                    "scale": {
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    },
+                    "rotation": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "anchorMin": {
+                      "x": 0.5,
+                      "y": 0.5
+                    },
+                    "anchorMax": {
+                      "x": 0.5,
+                      "y": 0.5
+                    },
+                    "offset": {
+                      "x": 0,
+                      "y": 145
+                    },
+                    "size": {
+                      "x": 620,
+                      "y": 90
+                    },
+                    "pivot": {
+                      "x": 0.5,
+                      "y": 0.5
+                    }
+                  },
+                  "CONTROLLER_CONSOLE": {
+                    "scale": {
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    },
+                    "rotation": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "anchorMin": {
+                      "x": 0.5,
+                      "y": 0.5
+                    },
+                    "anchorMax": {
+                      "x": 0.5,
+                      "y": 0.5
+                    },
+                    "offset": {
+                      "x": 0,
+                      "y": 145
+                    },
+                    "size": {
+                      "x": 620,
+                      "y": 90
+                    },
+                    "pivot": {
+                      "x": 0.5,
+                      "y": 0.5
+                    }
+                  },
+                  "CONTROLLER_MOBILE": {
+                    "scale": {
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    },
+                    "rotation": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "anchorMin": {
+                      "x": 0.5,
+                      "y": 0.5
+                    },
+                    "anchorMax": {
+                      "x": 0.5,
+                      "y": 0.5
+                    },
+                    "offset": {
+                      "x": 0,
+                      "y": 145
+                    },
+                    "size": {
+                      "x": 620,
+                      "y": 90
+                    },
+                    "pivot": {
+                      "x": 0.5,
+                      "y": 0.5
+                    }
+                  }
+                },
+                "fontSize": 62,
+                "adaptiveFontSize": false,
+                "minimumFontSize": 12,
+                "fontColor": 4294959760,
+                "bgColor": 0,
+                "enableOutline": false,
+                "outlineColor": 858993459,
+                "horizontalAlignment": "Middle",
+                "verticalAlignment": "Middle",
+                "text": "时间到！",
+                "guid": 1073900019,
+                "scriptMappingIds": [],
+                "children": []
+              },
+              {
+                "id": "n30",
+                "kind": "textbox",
+                "name": "ResultLabel",
+                "active": true,
+                "visible": false,
+                "canControllerFocus": false,
+                "syncAllDevices": true,
+                "transformByPlatform": {
+                  "KEYBOARD": {
+                    "scale": {
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    },
+                    "rotation": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "anchorMin": {
+                      "x": 0.5,
+                      "y": 0.5
+                    },
+                    "anchorMax": {
+                      "x": 0.5,
+                      "y": 0.5
+                    },
+                    "offset": {
+                      "x": 0,
+                      "y": 57
+                    },
+                    "size": {
+                      "x": 500,
+                      "y": 55
+                    },
+                    "pivot": {
+                      "x": 0.5,
+                      "y": 0.5
+                    }
+                  },
+                  "TOUCHSCREEN": {
+                    "scale": {
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    },
+                    "rotation": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "anchorMin": {
+                      "x": 0.5,
+                      "y": 0.5
+                    },
+                    "anchorMax": {
+                      "x": 0.5,
+                      "y": 0.5
+                    },
+                    "offset": {
+                      "x": 0,
+                      "y": 57
+                    },
+                    "size": {
+                      "x": 500,
+                      "y": 55
+                    },
+                    "pivot": {
+                      "x": 0.5,
+                      "y": 0.5
+                    }
+                  },
+                  "CONTROLLER_CONSOLE": {
+                    "scale": {
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    },
+                    "rotation": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "anchorMin": {
+                      "x": 0.5,
+                      "y": 0.5
+                    },
+                    "anchorMax": {
+                      "x": 0.5,
+                      "y": 0.5
+                    },
+                    "offset": {
+                      "x": 0,
+                      "y": 57
+                    },
+                    "size": {
+                      "x": 500,
+                      "y": 55
+                    },
+                    "pivot": {
+                      "x": 0.5,
+                      "y": 0.5
+                    }
+                  },
+                  "CONTROLLER_MOBILE": {
+                    "scale": {
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    },
+                    "rotation": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "anchorMin": {
+                      "x": 0.5,
+                      "y": 0.5
+                    },
+                    "anchorMax": {
+                      "x": 0.5,
+                      "y": 0.5
+                    },
+                    "offset": {
+                      "x": 0,
+                      "y": 57
+                    },
+                    "size": {
+                      "x": 500,
+                      "y": 55
+                    },
+                    "pivot": {
+                      "x": 0.5,
+                      "y": 0.5
+                    }
+                  }
+                },
+                "fontSize": 30,
+                "adaptiveFontSize": false,
+                "minimumFontSize": 12,
+                "fontColor": 4294965477,
+                "bgColor": 0,
+                "enableOutline": false,
+                "outlineColor": 858993459,
+                "horizontalAlignment": "Middle",
+                "verticalAlignment": "Middle",
+                "text": "本局总分",
+                "guid": 1073900020,
+                "scriptMappingIds": [],
+                "children": []
+              },
+              {
+                "id": "n31",
+                "kind": "textbox",
+                "name": "FinalScoreText",
+                "active": true,
+                "visible": false,
+                "canControllerFocus": false,
+                "syncAllDevices": true,
+                "transformByPlatform": {
+                  "KEYBOARD": {
+                    "scale": {
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    },
+                    "rotation": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "anchorMin": {
+                      "x": 0.5,
+                      "y": 0.5
+                    },
+                    "anchorMax": {
+                      "x": 0.5,
+                      "y": 0.5
+                    },
+                    "offset": {
+                      "x": 0,
+                      "y": -42
+                    },
+                    "size": {
+                      "x": 340,
+                      "y": 140
+                    },
+                    "pivot": {
+                      "x": 0.5,
+                      "y": 0.5
+                    }
+                  },
+                  "TOUCHSCREEN": {
+                    "scale": {
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    },
+                    "rotation": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "anchorMin": {
+                      "x": 0.5,
+                      "y": 0.5
+                    },
+                    "anchorMax": {
+                      "x": 0.5,
+                      "y": 0.5
+                    },
+                    "offset": {
+                      "x": 0,
+                      "y": -42
+                    },
+                    "size": {
+                      "x": 340,
+                      "y": 140
+                    },
+                    "pivot": {
+                      "x": 0.5,
+                      "y": 0.5
+                    }
+                  },
+                  "CONTROLLER_CONSOLE": {
+                    "scale": {
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    },
+                    "rotation": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "anchorMin": {
+                      "x": 0.5,
+                      "y": 0.5
+                    },
+                    "anchorMax": {
+                      "x": 0.5,
+                      "y": 0.5
+                    },
+                    "offset": {
+                      "x": 0,
+                      "y": -42
+                    },
+                    "size": {
+                      "x": 340,
+                      "y": 140
+                    },
+                    "pivot": {
+                      "x": 0.5,
+                      "y": 0.5
+                    }
+                  },
+                  "CONTROLLER_MOBILE": {
+                    "scale": {
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    },
+                    "rotation": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "anchorMin": {
+                      "x": 0.5,
+                      "y": 0.5
+                    },
+                    "anchorMax": {
+                      "x": 0.5,
+                      "y": 0.5
+                    },
+                    "offset": {
+                      "x": 0,
+                      "y": -42
+                    },
+                    "size": {
+                      "x": 340,
+                      "y": 140
+                    },
+                    "pivot": {
+                      "x": 0.5,
+                      "y": 0.5
+                    }
+                  }
+                },
+                "fontSize": 64,
+                "adaptiveFontSize": false,
+                "minimumFontSize": 12,
+                "fontColor": 4294959760,
+                "bgColor": 0,
+                "enableOutline": false,
+                "outlineColor": 858993459,
+                "horizontalAlignment": "Middle",
+                "verticalAlignment": "Middle",
+                "text": "0",
+                "guid": 1073900021,
+                "scriptMappingIds": [],
+                "children": []
+              },
+              {
+                "id": "n32",
+                "kind": "button",
+                "name": "RestartButton",
+                "active": true,
+                "visible": false,
+                "canControllerFocus": false,
+                "syncAllDevices": true,
+                "transformByPlatform": {
+                  "KEYBOARD": {
+                    "scale": {
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    },
+                    "rotation": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "anchorMin": {
+                      "x": 0.5,
+                      "y": 0.5
+                    },
+                    "anchorMax": {
+                      "x": 0.5,
+                      "y": 0.5
+                    },
+                    "offset": {
+                      "x": 0,
+                      "y": -156
+                    },
+                    "size": {
+                      "x": 270,
+                      "y": 84
+                    },
+                    "pivot": {
+                      "x": 0.5,
+                      "y": 0.5
+                    }
+                  },
+                  "TOUCHSCREEN": {
+                    "scale": {
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    },
+                    "rotation": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "anchorMin": {
+                      "x": 0.5,
+                      "y": 0.5
+                    },
+                    "anchorMax": {
+                      "x": 0.5,
+                      "y": 0.5
+                    },
+                    "offset": {
+                      "x": 0,
+                      "y": -156
+                    },
+                    "size": {
+                      "x": 270,
+                      "y": 84
+                    },
+                    "pivot": {
+                      "x": 0.5,
+                      "y": 0.5
+                    }
+                  },
+                  "CONTROLLER_CONSOLE": {
+                    "scale": {
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    },
+                    "rotation": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "anchorMin": {
+                      "x": 0.5,
+                      "y": 0.5
+                    },
+                    "anchorMax": {
+                      "x": 0.5,
+                      "y": 0.5
+                    },
+                    "offset": {
+                      "x": 0,
+                      "y": -156
+                    },
+                    "size": {
+                      "x": 270,
+                      "y": 84
+                    },
+                    "pivot": {
+                      "x": 0.5,
+                      "y": 0.5
+                    }
+                  },
+                  "CONTROLLER_MOBILE": {
+                    "scale": {
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    },
+                    "rotation": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "anchorMin": {
+                      "x": 0.5,
+                      "y": 0.5
+                    },
+                    "anchorMax": {
+                      "x": 0.5,
+                      "y": 0.5
+                    },
+                    "offset": {
+                      "x": 0,
+                      "y": -156
+                    },
+                    "size": {
+                      "x": 270,
+                      "y": 84
+                    },
+                    "pivot": {
+                      "x": 0.5,
+                      "y": 0.5
+                    }
+                  }
+                },
+                "raycastTarget": true,
+                "interactable": true,
+                "clickAudioId": 50888,
+                "unavailableChildId": null,
+                "hoverChildId": null,
+                "pressedChildId": null,
+                "selectedChildId": null,
+                "guid": 1073900022,
+                "scriptMappingIds": [],
+                "children": [
+                  {
+                    "id": "n33",
+                    "kind": "textbox",
+                    "name": "RestartLabel",
+                    "active": true,
+                    "visible": true,
+                    "canControllerFocus": false,
+                    "syncAllDevices": true,
+                    "transformByPlatform": {
+                      "KEYBOARD": {
+                        "scale": {
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        },
+                        "rotation": {
+                          "x": 0,
+                          "y": 0,
+                          "z": 0
+                        },
+                        "anchorMin": {
+                          "x": 0.5,
+                          "y": 0.5
+                        },
+                        "anchorMax": {
+                          "x": 0.5,
+                          "y": 0.5
+                        },
+                        "offset": {
+                          "x": 0,
+                          "y": 0
+                        },
+                        "size": {
+                          "x": 250,
+                          "y": 64
+                        },
+                        "pivot": {
+                          "x": 0.5,
+                          "y": 0.5
+                        }
+                      },
+                      "TOUCHSCREEN": {
+                        "scale": {
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        },
+                        "rotation": {
+                          "x": 0,
+                          "y": 0,
+                          "z": 0
+                        },
+                        "anchorMin": {
+                          "x": 0.5,
+                          "y": 0.5
+                        },
+                        "anchorMax": {
+                          "x": 0.5,
+                          "y": 0.5
+                        },
+                        "offset": {
+                          "x": 0,
+                          "y": 0
+                        },
+                        "size": {
+                          "x": 250,
+                          "y": 64
+                        },
+                        "pivot": {
+                          "x": 0.5,
+                          "y": 0.5
+                        }
+                      },
+                      "CONTROLLER_CONSOLE": {
+                        "scale": {
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        },
+                        "rotation": {
+                          "x": 0,
+                          "y": 0,
+                          "z": 0
+                        },
+                        "anchorMin": {
+                          "x": 0.5,
+                          "y": 0.5
+                        },
+                        "anchorMax": {
+                          "x": 0.5,
+                          "y": 0.5
+                        },
+                        "offset": {
+                          "x": 0,
+                          "y": 0
+                        },
+                        "size": {
+                          "x": 250,
+                          "y": 64
+                        },
+                        "pivot": {
+                          "x": 0.5,
+                          "y": 0.5
+                        }
+                      },
+                      "CONTROLLER_MOBILE": {
+                        "scale": {
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        },
+                        "rotation": {
+                          "x": 0,
+                          "y": 0,
+                          "z": 0
+                        },
+                        "anchorMin": {
+                          "x": 0.5,
+                          "y": 0.5
+                        },
+                        "anchorMax": {
+                          "x": 0.5,
+                          "y": 0.5
+                        },
+                        "offset": {
+                          "x": 0,
+                          "y": 0
+                        },
+                        "size": {
+                          "x": 250,
+                          "y": 64
+                        },
+                        "pivot": {
+                          "x": 0.5,
+                          "y": 0.5
+                        }
+                      }
+                    },
+                    "fontSize": 34,
+                    "adaptiveFontSize": false,
+                    "minimumFontSize": 12,
+                    "fontColor": 4294965477,
+                    "bgColor": 4280696952,
+                    "enableOutline": false,
+                    "outlineColor": 858993459,
+                    "horizontalAlignment": "Middle",
+                    "verticalAlignment": "Middle",
+                    "text": "再玩一次",
+                    "guid": 1073900023,
+                    "scriptMappingIds": [],
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "n34",
+                "kind": "image",
+                "name": "GameBackground",
+                "active": true,
+                "visible": true,
+                "canControllerFocus": false,
+                "syncAllDevices": true,
+                "transformByPlatform": {
+                  "KEYBOARD": {
+                    "scale": {
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    },
+                    "rotation": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "anchorMin": {
+                      "x": 0,
+                      "y": 0
+                    },
+                    "anchorMax": {
+                      "x": 1,
+                      "y": 1
+                    },
+                    "offset": {
+                      "x": 0,
+                      "y": 0
+                    },
+                    "size": {
+                      "x": 0,
+                      "y": 0
+                    },
+                    "pivot": {
+                      "x": 0.5,
+                      "y": 0.5
+                    }
+                  },
+                  "TOUCHSCREEN": {
+                    "scale": {
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    },
+                    "rotation": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "anchorMin": {
+                      "x": 0,
+                      "y": 0
+                    },
+                    "anchorMax": {
+                      "x": 1,
+                      "y": 1
+                    },
+                    "offset": {
+                      "x": 0,
+                      "y": 0
+                    },
+                    "size": {
+                      "x": 0,
+                      "y": 0
+                    },
+                    "pivot": {
+                      "x": 0.5,
+                      "y": 0.5
+                    }
+                  },
+                  "CONTROLLER_CONSOLE": {
+                    "scale": {
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    },
+                    "rotation": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "anchorMin": {
+                      "x": 0,
+                      "y": 0
+                    },
+                    "anchorMax": {
+                      "x": 1,
+                      "y": 1
+                    },
+                    "offset": {
+                      "x": 0,
+                      "y": 0
+                    },
+                    "size": {
+                      "x": 0,
+                      "y": 0
+                    },
+                    "pivot": {
+                      "x": 0.5,
+                      "y": 0.5
+                    }
+                  },
+                  "CONTROLLER_MOBILE": {
+                    "scale": {
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    },
+                    "rotation": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "anchorMin": {
+                      "x": 0,
+                      "y": 0
+                    },
+                    "anchorMax": {
+                      "x": 1,
+                      "y": 1
+                    },
+                    "offset": {
+                      "x": 0,
+                      "y": 0
+                    },
+                    "size": {
+                      "x": 0,
+                      "y": 0
+                    },
+                    "pivot": {
+                      "x": 0.5,
+                      "y": 0.5
+                    }
+                  }
+                },
+                "imageSource": "StaticReference",
+                "imageType": "Stretch",
+                "imageId": 100001,
+                "imageColor": 4278916672,
+                "enableMask": false,
+                "enableSoftEdge": false,
+                "softEdgeMode": "Percentage",
+                "softEdgeWidthX": 8,
+                "softEdgeWidthY": 8,
+                "horizontalSoftRange": 85,
+                "verticalSoftRange": 85,
+                "enableFill": false,
+                "fillType": "Horizontal",
+                "fillHorizontalType": "Left",
+                "fillVerticalType": "Bottom",
+                "fillRadial90Type": "BottomLeft",
+                "fillRadialType": "Bottom",
+                "fillAmount": 1,
+                "reverseMaskArea": false,
+                "guid": 1073900024,
+                "scriptMappingIds": [],
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "client": {
+      "layoutSchemaVersion": 2,
+      "version": 1,
+      "meta": {
+        "name": "客户端控件模板",
+        "assetType": "client-control-template",
+        "sourceFormat": "authoring",
+        "sourceFile": "",
+        "gameVersion": "7.1.0",
+        "giaOwnerUid": 114514,
+        "giaFileId": 1073741829,
+        "giaFileName": "客户端控件模板列表.gia",
+        "giaNextAssetIndex": 2,
+        "giaAssetIndexSchemaVersion": 1
+      },
+      "canvasId": "pc-16-9",
+      "selectedId": "avatar-image-template",
+      "root": {
+        "id": "sc1",
+        "kind": "server-container",
+        "name": "客户端控件模板",
+        "active": true,
+        "visible": true,
+        "canControllerFocus": false,
+        "syncAllDevices": true,
+        "transformByPlatform": {
+          "KEYBOARD": {
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "anchorMin": {
+              "x": 0,
+              "y": 0
+            },
+            "anchorMax": {
+              "x": 1,
+              "y": 1
+            },
+            "offset": {
+              "x": 0,
+              "y": 0
+            },
+            "size": {
+              "x": 0,
+              "y": 0
+            },
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            }
+          },
+          "TOUCHSCREEN": {
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "anchorMin": {
+              "x": 0,
+              "y": 0
+            },
+            "anchorMax": {
+              "x": 1,
+              "y": 1
+            },
+            "offset": {
+              "x": 0,
+              "y": 0
+            },
+            "size": {
+              "x": 0,
+              "y": 0
+            },
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            }
+          },
+          "CONTROLLER_CONSOLE": {
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "anchorMin": {
+              "x": 0,
+              "y": 0
+            },
+            "anchorMax": {
+              "x": 1,
+              "y": 1
+            },
+            "offset": {
+              "x": 0,
+              "y": 0
+            },
+            "size": {
+              "x": 0,
+              "y": 0
+            },
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            }
+          },
+          "CONTROLLER_MOBILE": {
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "anchorMin": {
+              "x": 0,
+              "y": 0
+            },
+            "anchorMax": {
+              "x": 1,
+              "y": 1
+            },
+            "offset": {
+              "x": 0,
+              "y": 0
+            },
+            "size": {
+              "x": 0,
+              "y": 0
+            },
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            }
+          }
+        },
+        "guid": 0,
+        "scriptMappingIds": [],
+        "children": [
+          {
+            "id": "avatar-image-template",
+            "kind": "image",
+            "name": "PaimonPixelTemplate",
+            "active": true,
+            "visible": true,
+            "canControllerFocus": false,
+            "syncAllDevices": true,
+            "transformByPlatform": {
+              "KEYBOARD": {
+                "scale": {
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "anchorMin": {
+                  "x": 0.5,
+                  "y": 0.5
+                },
+                "anchorMax": {
+                  "x": 0.5,
+                  "y": 0.5
+                },
+                "offset": {
+                  "x": 0,
+                  "y": -13
+                },
+                "size": {
+                  "x": 96,
+                  "y": 89
+                },
+                "pivot": {
+                  "x": 0.5,
+                  "y": 0.5
+                }
+              },
+              "TOUCHSCREEN": {
+                "scale": {
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "anchorMin": {
+                  "x": 0.5,
+                  "y": 0.5
+                },
+                "anchorMax": {
+                  "x": 0.5,
+                  "y": 0.5
+                },
+                "offset": {
+                  "x": 0,
+                  "y": -13
+                },
+                "size": {
+                  "x": 96,
+                  "y": 89
+                },
+                "pivot": {
+                  "x": 0.5,
+                  "y": 0.5
+                }
+              },
+              "CONTROLLER_CONSOLE": {
+                "scale": {
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "anchorMin": {
+                  "x": 0.5,
+                  "y": 0.5
+                },
+                "anchorMax": {
+                  "x": 0.5,
+                  "y": 0.5
+                },
+                "offset": {
+                  "x": 0,
+                  "y": -13
+                },
+                "size": {
+                  "x": 96,
+                  "y": 89
+                },
+                "pivot": {
+                  "x": 0.5,
+                  "y": 0.5
+                }
+              },
+              "CONTROLLER_MOBILE": {
+                "scale": {
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "anchorMin": {
+                  "x": 0.5,
+                  "y": 0.5
+                },
+                "anchorMax": {
+                  "x": 0.5,
+                  "y": 0.5
+                },
+                "offset": {
+                  "x": 0,
+                  "y": -13
+                },
+                "size": {
+                  "x": 96,
+                  "y": 89
+                },
+                "pivot": {
+                  "x": 0.5,
+                  "y": 0.5
+                }
+              }
+            },
+            "imageSource": "StaticReference",
+            "imageType": null,
+            "imageId": 100002,
+            "imageColor": 4294960083,
+            "enableMask": false,
+            "enableSoftEdge": false,
+            "softEdgeMode": "Percentage",
+            "softEdgeWidthX": 8,
+            "softEdgeWidthY": 8,
+            "horizontalSoftRange": 85,
+            "verticalSoftRange": 85,
+            "enableFill": false,
+            "fillType": "Horizontal",
+            "fillHorizontalType": "Left",
+            "fillVerticalType": "Bottom",
+            "fillRadial90Type": "BottomLeft",
+            "fillRadialType": "Bottom",
+            "fillAmount": 1,
+            "reverseMaskArea": false,
+            "guid": 1073800000,
+            "scriptMappingIds": [],
+            "children": []
+          }
+        ]
+      }
+    },
+    "scripts": [
+      {
+        "id": "game-main",
+        "guid": 1073920000,
+        "path": "dist/click-paimon.lua",
+        "source": "",
+        "controlId": "n1",
+        "controlAsset": "server-control-template"
+      }
+    ]
+  }
+}

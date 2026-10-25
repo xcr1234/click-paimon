@@ -1,0 +1,40 @@
+{
+  "name": "click-paimon",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "千星奇域 30 秒点击小游戏：Lua 模块化源码、单文件打包、模拟器回归与 GIA 导出",
+  "license": "MIT",
+  "author": "xcr1234",
+  "homepage": "https://github.com/xcr1234/click-paimon#readme",
+  "repository": { "type": "git", "url": "https://github.com/xcr1234/click-paimon.git" },
+  "bugs": { "url": "https://github.com/xcr1234/click-paimon/issues" },
+  "keywords": [
+    "miliastra",
+    "qxqy",
+    "千星奇域",
+    "ugc",
+    "lua",
+    "mini-game",
+    "pixel-art"
+  ],
+  "engines": { "node": ">=22.19.0" },
+  "scripts": {
+    "build": "node tools/build-project.mjs",
+    "build:game": "node tools/build-project.mjs",
+    "build:lua": "node tools/bundle-lua.mjs",
+    "build:lua:example": "node tools/bundle-lua.mjs --root examples/lua-modular/src --entry main --out examples/lua-modular/dist/main.lua",
+    "export:gia": "npm run build && node tools/export-project.mjs",
+    "test": "npm run build && npm run test:lua-bundle",
+    "test:lua-bundle": "node --test scripts/test-lua-bundle.mjs",
+    "check": "node tools/audit-public.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.32.1",
+    "beyond-simulator-mcp": "0.4.1",
+    "beyond-simulator-web": "0.4.1",
+    "fengari": "0.1.5",
+    "undici": "8.11.2",
+    "zod": "4.6.6"
+  }
+}

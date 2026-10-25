@@ -1,0 +1,15 @@
+{
+  "format": "qxqy-autotest",
+  "version": 1,
+  "name": "zero-score-result-restarts-clock",
+  "dt": 0.1,
+  "events": [
+    { "kind": "click", "name": "StartButton", "t": 0 },
+    { "kind": "click", "name": "RestartButton", "t": 30.1 }
+  ],
+  "asserts": [
+    { "kind": "log", "contains": "restart", "source": "client", "at": 30.1 },
+    { "kind": "control", "name": "ScoreText", "field": "text", "equals": "0", "at": 30.1 },
+    { "kind": "control", "name": "TimerText", "field": "text", "equals": "30", "at": 30.1 }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "format": "qxqy-autotest",
+  "version": 1,
+  "name": "start-and-score-once",
+  "dt": 0.03333333333333333,
+  "events": [
+    { "kind": "click", "name": "StartButton", "t": 0 },
+    { "kind": "click", "name": "PaimonTarget", "t": 0.1 }
+  ],
+  "asserts": [
+    { "kind": "log", "contains": "game_start", "source": "client", "at": 0 },
+    { "kind": "log", "contains": "score 1", "source": "client", "at": 0.1 },
+    { "kind": "control", "name": "ScoreText", "field": "text", "equals": "1", "at": 0.1 }
+  ]
+}
